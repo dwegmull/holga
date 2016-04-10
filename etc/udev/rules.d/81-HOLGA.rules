@@ -1,0 +1,2 @@
+KERNEL=="sd*1", ENV{ID_FS_LABEL}=="HOLGA", NAME="holga", RUN="/bin/bash /opt/holga.sh"
+
